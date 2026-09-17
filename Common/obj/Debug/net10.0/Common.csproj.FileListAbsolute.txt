@@ -10,4 +10,3 @@ C:\Users\joelw\source\repos\PingPongTests\Common\obj\Debug\net10.0\Common.dll
 C:\Users\joelw\source\repos\PingPongTests\Common\obj\Debug\net10.0\refint\Common.dll
 C:\Users\joelw\source\repos\PingPongTests\Common\obj\Debug\net10.0\Common.pdb
 C:\Users\joelw\source\repos\PingPongTests\Common\obj\Debug\net10.0\ref\Common.dll
-C:\Users\joelw\source\repos\PingPongTests\Common\obj\Debug\net10.0\Common.csproj.Up2Date
