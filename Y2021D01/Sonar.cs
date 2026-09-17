@@ -16,4 +16,21 @@ public class Sonar
 
         return increases;
     }
+
+    public int CountingIncreaseSum(int[] depths)
+    {
+        int latestSum = 0;
+        int increases = 0;
+        for (int i = 1; i < depths.Length - 2; i++)
+        {
+            int suma = depths[i] + depths[i + 1] + depths[i + 2];
+            if (suma > latestSum)
+            {
+                increases++;
+            }
+
+            latestSum = suma;
+        }
+        return increases;
+    }
 }

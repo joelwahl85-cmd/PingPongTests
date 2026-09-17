@@ -33,4 +33,27 @@ public class SonarTest
         // Assert
         Assert.Equal(expected, actual);
     }
+
+    [Theory]
+    [InlineData(new int[] {}, 0)]
+    [InlineData(new int[] { 2 }, 0)]
+    [InlineData(new int[] { 1, 2, 3, 4, 5, 6 } , 3)]
+    [InlineData(new int[] { 4, 3, 2, 1 }, 0)]
+
+    public void CountingIncreaseSum_KnownArrays_ReturnsExpected(int[] depths, int? expected)
+    {
+        // Arrange
+        var sut = new Sonar();
+        // Act
+        var actual = sut.CountingIncreaseSum(depths);
+        // Assert
+        if (expected.HasValue)
+        {
+            Assert.Equal(expected.Value, actual);
+        }
+        else
+        {
+            Assert.Throws<ArgumentException>(() => sut.CountingIncreaseSum(depths));
+        }
+    }
 }

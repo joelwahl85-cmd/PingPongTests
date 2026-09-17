@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\y2021d01\\sonar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|solutionrelative:y2021d01\\sonar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\y2021d01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|solutionrelative:y2021d01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\y2021d01\\y2021d01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|solutionrelative:y2021d01\\y2021d01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4201A8-CA17-4790-F2F1-4DFF87DD6DF5}|Common.Tests\\Common.Tests.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\common.tests\\inputtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4201A8-CA17-4790-F2F1-4DFF87DD6DF5}|Common.Tests\\Common.Tests.csproj|solutionrelative:common.tests\\inputtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4201A8-CA17-4790-F2F1-4DFF87DD6DF5}|Common.Tests\\Common.Tests.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\common.tests\\common.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC4201A8-CA17-4790-F2F1-4DFF87DD6DF5}|Common.Tests\\Common.Tests.csproj|solutionrelative:common.tests\\common.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15E491A-E872-91D8-DF7A-CA59C792F064}|Common\\Common.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E15E491A-E872-91D8-DF7A-CA59C792F064}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|c:\\users\\joelw\\source\\repos\\pingpongtests\\y2021d01\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC1E898E-2B13-859C-E752-6BD02E71EC4C}|Y2021D01\\Y2021D01.csproj|solutionrelative:y2021d01\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sonar.cs",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Sonar.cs",
+              "RelativeDocumentMoniker": "Y2021D01\\Sonar.cs",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Sonar.cs*",
+              "RelativeToolTip": "Y2021D01\\Sonar.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:16:40.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Program.cs",
+              "RelativeDocumentMoniker": "Y2021D01\\Program.cs",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Program.cs",
+              "RelativeToolTip": "Y2021D01\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:10:49.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Y2021D01",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Y2021D01.csproj",
+              "RelativeDocumentMoniker": "Y2021D01\\Y2021D01.csproj",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\Y2021D01.csproj",
+              "RelativeToolTip": "Y2021D01\\Y2021D01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-17T10:10:39.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Common.Tests",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common.Tests\\Common.Tests.csproj",
+              "RelativeDocumentMoniker": "Common.Tests\\Common.Tests.csproj",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common.Tests\\Common.Tests.csproj",
+              "RelativeToolTip": "Common.Tests\\Common.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-17T10:09:33.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Common",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common\\Common.csproj",
+              "RelativeDocumentMoniker": "Common\\Common.csproj",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common\\Common.csproj",
+              "RelativeToolTip": "Common\\Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-17T10:08:05.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputTests.cs",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common.Tests\\InputTests.cs",
+              "RelativeDocumentMoniker": "Common.Tests\\InputTests.cs",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Common.Tests\\InputTests.cs",
+              "RelativeToolTip": "Common.Tests\\InputTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:07:37.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\input.txt",
+              "RelativeDocumentMoniker": "Y2021D01\\input.txt",
+              "ToolTip": "C:\\Users\\joelw\\source\\repos\\PingPongTests\\Y2021D01\\input.txt",
+              "RelativeToolTip": "Y2021D01\\input.txt",
+              "ViewState": "AgIAAKkGAAAAAAAAAAAgwPoGAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-17T10:06:00.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
