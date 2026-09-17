@@ -3,5 +3,6 @@
   <Project Path="Common/Common.csproj" />
   <Project Path="Y2021D01.Tests/Y2021D01.Tests.csproj" />
   <Project Path="Y2021D01/Y2021D01.csproj" />
+  <Project Path="Y2021D02.Tests/Y2021D02.Tests.csproj" Id="83c86f67-eb1c-4a7f-b4d5-a36b6c27de11" />
   <Project Path="Y2021D02/Y2021D02.csproj" Id="b3c6f970-344a-4c5c-8dd5-7cc730b2ed2e" />
 </Solution>
