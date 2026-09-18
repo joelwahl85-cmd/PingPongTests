@@ -10,3 +10,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+Y2021D01/obj
+Common.Tests/bin
+Common.Tests/obj
+Y2021D02.Tests/bin
+Y2021D02.Tests/obj
+Y2021D02/obj
+Y2021D01.Tests/obj
+Y2021D01.Tests/bin
+Common/obj
