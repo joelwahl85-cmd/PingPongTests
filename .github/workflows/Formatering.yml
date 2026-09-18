@@ -1,0 +1,20 @@
+name: ContextTest
+env: 
+  BUILD_ACTOR: ${{ github.actor }}
+  BUILD_REFNAME: ${{ github.ref_name }}
+  BUILD_EVENTNAME: ${{ github.event_name }}
+on:
+  workflow_dispatch:
+  push: 
+    branches: 
+      - main
+  pull_request: 
+    branches: 
+      - main
+jobs:
+  sonar-actions:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Testing
+      run: echo " $BUILD_ACTOR $BUILD_EVENTNAME $BUILD_REFNAME" 
+   
