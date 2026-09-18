@@ -1,4 +1,9 @@
 name: TomteTest
+
+
+env:
+  BUILD_CONFIGURATION: release
+
 on: 
   workflow_dispatch:
   push: 
@@ -20,7 +25,7 @@ jobs:
       with: 
         dotnet-version: '10.0.x'
     - name: build projekt
-      run: dotnet build --configuration ${{ env.build_configuration }}
+      run: dotnet build --configuration ${{ env.BUILD_CONFIGURATION }}
     - name: test projekt
       run: dotnet test --configuration ${{ env.BUILD_CONFIGURATION }}
     - name: run code
