@@ -1,0 +1,27 @@
+name: Sonar Test
+on:
+  workflow-dispatch:
+    push:
+      branches:
+        - main 
+    pull_request:
+      branches:
+        - main
+jobs:
+   sonar-actions:
+     runs-on: unbuntu-latest
+	 steps:
+	 - name: Testing
+	   run: echo "Test Sonar"
+	 - name: Checkout Repository Code
+	   uses: actions/checkout@v6
+	 - name: Install .NET 10
+	   uses: actions/setup-dotnet@v6
+	   with:
+	     dotnet-version: '10.0.x'
+	 - name: Build Project
+	   run: dotnet build
+	 - name: Test Project
+	   run: dotnet test
+	 - name: Run Code
+	   run: dotnet run --project Y2021D01.Tests/Y2021D01.Tests.csproj
