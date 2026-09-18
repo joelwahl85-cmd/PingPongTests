@@ -1,4 +1,6 @@
 name: SonarTest
+env: 
+  BUILD_CONFIG: ${{ vars.BUILD_CONFIG}}
 on:
   workflow_dispatch:
   push: 
@@ -20,8 +22,8 @@ jobs:
       with:
         dotnet-version: '10.0.x'
     - name: Build Project
-      run: dotnet build
+      run: dotnet build --configuration ${{ env.BUILD_CONFIG }}
     - name: Test Project
-      run: dotnet test
+      run: dotnet test --configuration ${{ env.BUILD_CONFIG }}
     - name: Run Code
       run: dotnet run --project Y2021D01.Tests/Y2021D01.Tests.csproj
