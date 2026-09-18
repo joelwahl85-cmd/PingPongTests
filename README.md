@@ -1,5 +1,8 @@
 # Laboration System25 – TDD med Advent of Code
 
+![CI](https://github.com/<markusmiless98>/<PingPongTests>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/<joelwahl85>/<PingPongTests>/actions/workflows/ci.yml/badge.svg)
+
 Laborationsinstruktionerna finns i [LABORATION.md](LABORATION.md).
 
 Uppföljningen om GitHub-flöde och CI finns i
