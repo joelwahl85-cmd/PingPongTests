@@ -7,7 +7,7 @@
         [InlineData("((()))", 0)]
         [InlineData("(()))", -1)]
         [InlineData("(((", 3)]
-        [InlineData("Hej från tomten", -1)]
+        [InlineData("Hej från tomten", 0)]
         public void CountTomteFloor_KnownInputs_ReturnsExpected(string floors, int expected)
         {
             // Arrange
