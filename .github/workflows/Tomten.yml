@@ -5,6 +5,6 @@ jobs:
   Tomte-Actions:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Test ram" 
+    - run: echo "Test Tomte"
 
   
