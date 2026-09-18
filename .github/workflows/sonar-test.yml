@@ -27,3 +27,20 @@ jobs:
       run: dotnet test --configuration ${{ env.BUILD_CONFIG }}
     - name: Run Code
       run: dotnet run --project Y2021D01.Tests/Y2021D01.Tests.csproj
+  formatering:
+    name: Kodformatering
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v6
+      - name: Install .NET 10
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build Project
+        run: dotnet build --configuration ${{ env.BUILD_CONFIG }} 
+      - name: format
+        run: dotnet format --verify-no-changes 
+      # TODO: hämta koden och installera .NET, precis som i jobbet ovanför
+      # TODO: kör dotnet format med den flagga som rapporterar istället för
+      #       att rätta. Kör "dotnet format --help" och leta.
