@@ -15,7 +15,6 @@ jobs:
       run: echo "Test Tomte"
     - name: checkout repository code
       uses: actions/checkout@v6
-      run: echo "${{github.repository}} repository has been cloned"
     - name: install .NET 10
       uses: actions/setup-dotnet@v6
       with: 
