@@ -20,9 +20,9 @@ jobs:
       with: 
         dotnet-version: '10.0.x'
     - name: build projekt
-      run: dotnet build --configuration $BUILD_CONFIGURATION
+      run: dotnet build --configuration ${{ github.BUILD_CONFIGURATION }}
     - name: test projekt
-      run: dotnet test --configuration $BUILD_CONFIGURATION
+      run: dotnet test --configuration ${{ github.BUILD_CONFIGURATION }}
     - name: run code
       run: dotnet run --project Y2021D02.Tests/Y2021D02.Tests.csproj          
 
