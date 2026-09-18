@@ -1,0 +1,21 @@
+name: ActionLog
+
+env:
+  STARTAD_AV: ${{ github.actor }}
+  HANDELSE: ${{ github.event_name }}
+  REFERENS: ${{ github.ref_name }}
+
+on: 
+  workflow_dispatch:
+  push: 
+    branches: 
+      - main
+  pull_request: 
+    branches: 
+      - main
+jobs:
+  Log-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Testing
+      run: echo $" {{ env.STARTAD_AV }} {{ env.HANDELSE }} {{ env.REFERENS }}"
