@@ -1,1 +1,10 @@
+name: TomteTest
+run-name: $ {{github.actor}} Is Performing TomteTest
+on: [push, pull]
+jobs:
+  Tomte-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Test ram" 
 
+  
