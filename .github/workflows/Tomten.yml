@@ -1,10 +1,17 @@
 name: TomteTest
-run-name: $ {{github.actor}} Is Performing TomteTest
-on: [push, pull]
+on: 
+  workflow_dispatch:
+  push: 
+    branches: 
+      - main
+  pull: 
+    branches: 
+      - main
 jobs:
   Tomte-Actions:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Test Tomte"
+    - name: Testing
+      run: echo "Test Tomte"
 
   
