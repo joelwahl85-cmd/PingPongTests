@@ -18,4 +18,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Testing
-      run: echo $" {{ env.STARTAD_AV }} {{ env.HANDELSE }} {{ env.REFERENS }}"
+      run: echo " $STARTAD_AV $ HANDELSE $REFERENS"
