@@ -1,15 +1,15 @@
-name: Sonar Test
+name: SonarTest
 on:
   workflow_dispatch:
-    push:
-      branches:
-        - main 
-    pull_request:
-      branches:
-        - main
+  push: 
+    branches: 
+      - main
+  pull_request: 
+    branches: 
+      - main
 jobs:
   sonar-actions:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Testing
       run: echo "Test Sonar"
