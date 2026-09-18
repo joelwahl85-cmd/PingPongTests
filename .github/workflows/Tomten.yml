@@ -1,8 +1,7 @@
 name: TomteTest
 
-
 env:
-  BUILD_CONFIGURATION: release
+  BUILD_CONFIGURATION: ${{ vars.BUILD_CONFIGURATION }}
 
 on: 
   workflow_dispatch:
